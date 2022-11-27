@@ -1,0 +1,147 @@
+/* Containers */
+.top-container {
+    background-color: #DEF5E5;
+
+}
+
+.middle-container {
+    padding: 100px 0px 65px 0px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0px 15px 0px;
+}
+
+/* Images */
+
+.top-cloud {
+    position: relative;
+    left: 17.5rem;
+    padding: 1.25rem;
+    top: .625rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 22.5rem;
+
+}
+
+.code-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.makima-img {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+/* Elements */
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /* 100% = 16px = 1em*/
+    margin: 50px 0 auto 0;
+
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 2rem;
+
+}
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #11999E;
+}
+
+.first-p {
+    font-family: 'Alegreya', serif;
+    font-size: 2.0rem;
+
+    color: #497174;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: white;
+
+
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    margin: 100px auto 100px auto;
+    width: 5%;
+
+}
+
+/* Classes */
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 40%;
+    margin: 75px auto 75px auto;
+    text-align: left;
+
+}
+
+.contact-message {
+    width: 30%;
+    margin: 45px auto 60px auto;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    padding: 20px 0px;
+}
+
+/* Buttons */
+.btn {
+    text-decoration: none;
+    background-color: #66BFBF;
+    color: white;
+    padding: 4px 12px;
+    border: 1px solid;
+    border-radius: 9999px;
+
+}
+
+.btn:hover {
+    background-color: #D6E4E5;
+}
